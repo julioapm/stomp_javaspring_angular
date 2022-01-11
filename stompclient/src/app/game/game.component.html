@@ -1,0 +1,7 @@
+<div id="messages">
+  <button class="btn btn-primary" (click)="onPlayCard()">Play Card</button>
+  <h2>Received messages</h2>
+  <ol>
+    <li class="message" *ngFor="let msg of receivedMessages">{{msg}}</li>
+  </ol>
+</div>
